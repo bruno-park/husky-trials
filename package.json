@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint --cache .",
+    "lint": "next lint",
     "format": "prettier \"!**/*.{js,jsx,vue,css,ico}\" --write --cache ./app"
   },
   "dependencies": {
