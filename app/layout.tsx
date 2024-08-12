@@ -4,7 +4,7 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-console.log(123);
+console.log("test");
 
 export const metadata: Metadata = {
   title: "Create Next App",
