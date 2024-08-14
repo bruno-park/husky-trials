@@ -9,9 +9,11 @@
     "lint": "next lint",
     "format": "prettier \"!**/*.{js,jsx,vue,css,ico}\" --write --cache ./app"
   },
+  "prettier": {
+    "plugins": ["prettier-plugin-organize-imports"]
+  },
   "dependencies": {
     "next": "14.2.5",
-    "prettier": "^3.3.3",
     "react": "^18",
     "react-dom": "^18"
   },
@@ -22,6 +24,8 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "husky": "^9.1.4",
+    "prettier": "^3.3.3",
+    "prettier-plugin-organize-imports": "^4.0.0",
     "typescript": "^5"
   }
 }
